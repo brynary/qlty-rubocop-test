@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+gem 'rubocop', '~> 1.65.0'
+gem 'rubocop-capybara', '~>2.21.0'
+gem 'rubocop-factory_bot', '~> 2.26.0'
+gem 'rubocop-performance', '~> 1.21.0'
+gem 'rubocop-rails', '~> 2.25.1'
+gem 'rubocop-rspec', '~> 3.0.0'
+gem 'rubocop-rspec_rails', '~> 2.30.0'
+
+# s.add_development_dependency 'rubocop', '~> 1.65.0'
+# s.add_development_dependency 'rubocop-capybara', '~>2.21.0'
+# s.add_development_dependency 'rubocop-factory_bot', '~> 2.26.0'
+# s.add_development_dependency 'rubocop-performance', '~> 1.21.0'
+# s.add_development_dependency 'rubocop-rails', '~> 2.25.1'
+# s.add_development_dependency 'rubocop-rspec', '~> 3.0.0'
+# s.add_development_dependency 'rubocop-rspec_rails', '~> 2.30.0'
