@@ -1,0 +1,4 @@
+inherit_from: https://raw.githubusercontent.com/q-centrix/style-guides/main/ruby/.rubocop-1-60-except-graphql.yml
+
+RSpecRails/InferredSpecType:
+  Enabled: false
