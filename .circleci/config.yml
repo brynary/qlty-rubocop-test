@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    resource_class: small
+    docker:
+      - image: cimg/ruby:3.0.3
+
+    steps:
+      - checkout
+      - run:
+          name: Install Qlty Test Reporter
+          command: |
+            curl -L https://qlty-releases.s3.amazonaws.com/qlty/latest/qlty-x86_64-unknown-linux-musl.tar.xz > qlty.tar.xz
+
+      - run:
+          name: Stash Qlty Coverage Results
+          command: |
+            tar -xf qlty.tar.xz qlty-x86_64-unknown-linux-musl/qlty --strip-components 1
+
+      - run:
+          name: Report Qlty Coverage Data
+          command: |
+            ./qlty --version
