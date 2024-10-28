@@ -31,8 +31,7 @@ GEM
     rack (3.1.7)
     rainbow (3.1.1)
     regexp_parser (2.9.2)
-    rexml (3.3.2)
-      strscan
+    rexml (3.3.9)
     rubocop (1.65.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -64,13 +63,13 @@ GEM
       rubocop (~> 1.61)
       rubocop-rspec (~> 3, >= 3.0.1)
     ruby-progressbar (1.13.0)
-    strscan (3.1.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   rubocop (~> 1.65.0)
