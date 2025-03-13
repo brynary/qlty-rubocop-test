@@ -79,6 +79,3 @@ name = "trivy"
 drivers = [
   "fs-vuln",
 ]
-
-[[plugin]]
-name = "trufflehog"
